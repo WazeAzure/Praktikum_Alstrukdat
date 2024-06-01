@@ -1,0 +1,3 @@
+break main2.c:26
+
+set exec-wrapper logging enabled

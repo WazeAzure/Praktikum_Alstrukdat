@@ -1,0 +1,3 @@
+break main.c:15
+
+set exec-wrapper logging enabled

@@ -1,0 +1,26 @@
+function deleteNeg(input/output l : List)
+	KAMUS LOKAL
+	p : Address
+	prev : Address
+	temp : int
+
+	ALGORITMA
+	p <- l
+	while (p^.info < 0) do
+		prev <- p
+		p <- p^.next
+		free(prev)
+
+	prev <- p
+	p <- p^.next	
+
+	while(p != NULL)
+		if (p^.info < 0) then
+			p <- p^.next
+			
+			
+		else
+			prev <- p
+			p <- p^.next
+
+
